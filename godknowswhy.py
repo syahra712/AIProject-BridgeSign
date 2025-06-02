@@ -295,7 +295,7 @@ class EnhancedASLApp(QMainWindow):
         
         # Initialize Gemini API
         try:
-            self.gemini_api_key = "AIzaSyCpUmVfHofkuaGR9PzZGHGd6eOoYeKuNH4"  # Directly set the API key
+            self.gemini_api_key = ""  # Directly set the API key
             if not self.gemini_api_key:
                 print("⚠️ Gemini API key not provided. Using pyttsx3 only.")
                 self.use_gemini = False
