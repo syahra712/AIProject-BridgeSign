@@ -27,7 +27,7 @@ except ImportError:
     from PyQt5.QtCore import *
     from PyQt5.QtGui import *
 
-# Text-to-speech
+# Text-to-speechh
 try:
     import pyttsx3
 except ImportError:
